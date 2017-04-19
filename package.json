@@ -1,0 +1,8 @@
+{
+  "name": "slide-server",
+  "version": "0.0.1",
+  "description": "Google Slides Remote - Client",
+  "dependencies": {
+    "socket.io": "^1.7.3"
+  }
+}

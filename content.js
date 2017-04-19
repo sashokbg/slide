@@ -1,4 +1,4 @@
-var ws = io('https://websocket-limhenry.rhcloud.com:8443');
+var ws = io('localhost:8000', {path: '/'});
 
 var slide = document.querySelector(".punch-viewer-content");
 

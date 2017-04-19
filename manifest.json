@@ -1,6 +1,6 @@
 {
 	"manifest_version": 2,
-	"name": "Remote for Google Slides™",
+	"name": "Remote for Google Slides™ (Alex)",
 	"version": "0.5.3",
 	"offline_enabled": true,
 	"description": "Control Google Slides on any device, remotely.",
@@ -15,7 +15,7 @@
 
 	"content_scripts": [{
 		"matches":    ["https://docs.google.com/presentation/d/*/present*"],
-		"js":         ["socket.io-1.1.0.js", "content.js", "analytics.js"],
+		"js":         ["socket.io.min.js", "content.js", "analytics.js"],
 		"run_at":     "document_idle",
 		"all_frames": false
 	}],

@@ -1,4 +1,4 @@
-var ws = io('localhost:8000', {path: '/'});
+var ws = io.connect('https://localhost:8000');
 
 var slide = document.querySelector(".punch-viewer-content");
 

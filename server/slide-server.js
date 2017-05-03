@@ -1,6 +1,11 @@
-var app = require('express')();
+var express = require('express');
+var cors = require('cors');
+var app = express();
+
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
+
+// io.origins('*:*');
 
 io.on('connection', function(socket){
     console.log('A user connected');
